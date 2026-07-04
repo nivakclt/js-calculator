@@ -17,9 +17,6 @@ https://nivakclt.github.io/js-calculator/
 - CSS3
 - JavaScript
 
-## 📸 Screenshot
-(Add a screenshot of your calculator here)
-
 ## 📂 Installation
 
 1. Clone the repository:
