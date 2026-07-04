@@ -17,15 +17,14 @@
     <style>
         .btn {
             width: 100%;
-            
         }
     </style>
 </head>
 
 <body>
-    <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-        <div class="w-50 border border-3 shadow bg-dark text-white p-3">
-            <h3 class="text-center mt-3">Calculator</h3>
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh; background: linear-gradient(135deg, #00325e, #acaeae); background-repeat: no-repeat;">
+        <div class="w-50  bg-light text-black p-3">
+            <h3 class="text-center mt-3" style="color: #00325e; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Calculator</h3>
             <table class="w-100">
                 <tr>
                     <td colspan="4">
@@ -34,33 +33,33 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <button class="btn btn-danger" onclick="clearEditor()">AC</button>
+                        <button class="btn btn-dark" onclick="clearEditor()">AC</button>
                     </td>
                     <td colspan="2"> 
-                          <button class="btn btn-danger" onclick="deleteLast()">C</button>
+                          <button class="btn btn-dark" onclick="deleteLast()">C</button>
                     </td>
                 <tr>
-                    <td><button class="btn btn-info" onclick="setEditor(event)">9</button></td>
-                    <td><button class="btn btn-info" onclick="setEditor(event)">8</button></td>
-                    <td><button class="btn btn-info" onclick="setEditor(event)">7</button></td>
-                    <td><button class="btn btn-primary" onclick="setEditor(event)">+</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">9</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">8</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">7</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">+</button></td>
                 </tr>
                 <tr>
-                    <td><button class="btn btn-info" onclick="setEditor(event)">6</button></td>
-                    <td><button class="btn btn-info" onclick="setEditor(event)">5</button></td>
-                    <td><button class="btn btn-info" onclick="setEditor(event)">4</button></td>
-                    <td><button class="btn btn-primary" onclick="setEditor(event)">-</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">6</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">5</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">4</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">-</button></td>
                 </tr>
                 <tr>
-                    <td><button class="btn btn-info" onclick="setEditor(event)">3</button></td>
-                    <td><button class="btn btn-info" onclick="setEditor(event)">2</button></td>
-                    <td><button class="btn btn-info" onclick="setEditor(event)">1</button></td>
-                    <td><button class="btn btn-primary" onclick="setEditor(event)">/</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">3</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">2</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">1</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">/</button></td>
                 </tr>
                 <tr>
-                    <td><button class="btn btn-info" onclick="setEditor(event)">0</button></td>
-                    <td><button class="btn btn-primary" onclick="setEditor(event)">*</button></td>
-                    <td><button class="btn btn-primary" onclick="setEditor(event)">%</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">0</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">*</button></td>
+                    <td><button class="btn btn-outline-dark" onclick="setEditor(event)">%</button></td>
                     <td><button class="btn btn-warning" onclick="getResult()">=</button></td>
                 </tr>
             </table>
