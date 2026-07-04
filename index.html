@@ -17,13 +17,14 @@
     <style>
         .btn {
             width: 100%;
+            
         }
     </style>
 </head>
 
 <body>
     <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-        <div class="w-50 border border-3 shadow bg-light p-3">
+        <div class="w-50 border border-3 shadow bg-dark text-white p-3">
             <h3 class="text-center mt-3">Calculator</h3>
             <table class="w-100">
                 <tr>
@@ -31,16 +32,13 @@
                         <input id="editor" type="text" class="form-control" readonly>
                     </td>
                 </tr>
-                <tr colspan="2">
-                    <td>
-                        <button class="btn btn-warning" onclick="clearEditor()">AC</button>
+                <tr>
+                    <td colspan="2">
+                        <button class="btn btn-danger" onclick="clearEditor()">AC</button>
                     </td>
-                </tr>
-                <tr colspan="2">
-                    <td>
-                          <button class="btn btn-warning" onclick="deleteLast()">C</button>
+                    <td colspan="2"> 
+                          <button class="btn btn-danger" onclick="deleteLast()">C</button>
                     </td>
-                </tr>
                 <tr>
                     <td><button class="btn btn-info" onclick="setEditor(event)">9</button></td>
                     <td><button class="btn btn-info" onclick="setEditor(event)">8</button></td>
